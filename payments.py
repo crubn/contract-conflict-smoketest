@@ -1,2 +1,2 @@
-def charge(amount):
-    return {"charged": amount}
+def charge(amount, currency):
+    return {"charged": amount, "currency": currency}
