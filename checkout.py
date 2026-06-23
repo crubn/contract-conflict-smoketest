@@ -1,6 +1,6 @@
-# live cross-PR contract-break smoketest trigger (run 1)
+# negative control: call site updated to NEW signature
 from payments import charge
 
 
 def run_checkout():
-    return charge(100)
+    return charge(100, "usd")
